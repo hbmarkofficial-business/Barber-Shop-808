@@ -55,7 +55,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Adresse</h4>
                   <p className="text-muted-foreground">
-                    Färberstraße 54, 90402 Nürnberg
+                    Donauwörther Str. 50, 86154 Augsburg
                   </p>
                 </div>
               </div>
@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefon</h4>
                   <a
-                    href="tel:015118311067"
+                    href="tel:017681476257"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    015118311067
+                    017681476257
                   </a>
                 </div>
               </div>
@@ -84,9 +84,11 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo. – Fr. 10:00–20:00 Uhr
+                    Di. – Fr. 8:30–19:00 Uhr
                     <br />
-                    Sa. 10:00–19:00 Uhr
+                    Sa. 8:30–18:00 Uhr
+                    <br />
+                    So. & Mo. Geschlossen
                   </p>
                 </div>
               </div>
@@ -99,7 +101,7 @@ export const ContactSection = () => {
               </Button>
 
               <Button variant="goldOutline" size="xl" asChild>
-                <a href="tel:+4917629117689">Jetzt anrufen</a>
+                <a href="tel:017681476257">Jetzt anrufen</a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -109,14 +111,14 @@ export const ContactSection = () => {
             <div className="relative">
               <div className="aspect-square lg:aspect-[4/5] rounded-sm overflow-hidden border border-border">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5187.871688976504!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769505288553!5m2!1sde!2sde"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42421.71444910549!2d10.85770386953124!3d48.35366042571219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e991b8ad6a863%3A0x35deaaa90b9b9b88!2sBarber%20Shop%20808%20Haunstetten%20Augsburg!5e0!3m2!1sde!2sde!4v1770551796852!5m2!1sde!2sde"
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Standort Top Salon – Nürnberg"
+                  title="Standort HN Gentleman's Barbershop"
                 />
               </div>
 
